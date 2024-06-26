@@ -7,17 +7,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "League Spartan", sans-serif;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
+    width: 1090px;
+
 }
 
 .top-div {
     display: flex;
-    column-gap: 410px;
+    column-gap: 299px;
 }
 
 .two {
@@ -34,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
-    padding-top: 44px;
+    padding-top: 62px;
 }
 
 .bottom-div {
@@ -56,11 +59,14 @@ body {
 
 .left-div h1 {
     color: hsl(300, 43%, 22%);
-    width: 200px;
+    width: 250px;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .left-div p {
-    color: hsl(333, 80%, 67%)
+    color: hsl(333, 80%, 67%);
+    margin-bottom: 0px;
 }
 
 
