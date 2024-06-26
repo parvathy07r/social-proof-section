@@ -27,6 +27,75 @@ body {
     display: flex;
 }
 
+.rating {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 5px;
+    column-gap: 20px;
+}
+
+.left-div h2  {
+    color: hsl(300, 43%, 22%);
+}
+
+.left-div p {
+    color: hsl(333, 80%, 67%)
+}
+
+
+.rating-description {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.column {
+    background-color: hsl(300, 43%, 22%) ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    column-gap: 20px;
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+}
+
+.designation {
+    color: hsl(303, 10%, 53%);
+    font-weight: bold;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+.paragraphs p {
+    margin: 0px;
+}
+
+.review {
+    color: white;
+}
+
+
+
 .top-div, .bottom-div, .left-div, .right-div, .rating, .column {
     border: 1px, solid, black;
 }
