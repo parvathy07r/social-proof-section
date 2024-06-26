@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div {
+    display: flex;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-div {
+    display: flex;
+}
+
+.top-div, .bottom-div, .left-div, .right-div, .rating, .column {
+    border: 1px, solid, black;
+}
