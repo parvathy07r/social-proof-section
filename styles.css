@@ -12,15 +12,29 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
+    row-gap: 24px;
 }
 
 .top-div {
     display: flex;
+    column-gap: 410px;
+}
+
+.two {
+    position: relative;
+    left: 36px;
+}
+
+.three {
+    position: relative;
+    left: 79px;
 }
 
 .right-div {
     display: flex;
     flex-direction: column;
+    row-gap: 12px;
+    padding-top: 44px;
 }
 
 .bottom-div {
@@ -34,8 +48,13 @@ body {
     column-gap: 20px;
 }
 
-.left-div h2  {
+.left-div {
+    width: 425px;
+}
+
+.left-div h1 {
     color: hsl(300, 43%, 22%);
+    width: 200px;
 }
 
 .left-div p {
@@ -50,7 +69,7 @@ body {
 }
 
 .column {
-    background-color: hsl(300, 43%, 22%) ;
+    background-color: hsl(300, 43%, 22%);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -83,7 +102,7 @@ body {
     row-gap: 4px;
     font-size: 16px;
     justify-content: center;
-    align-items: flex-start;   
+    align-items: flex-start;
 }
 
 .paragraphs p {
@@ -96,6 +115,11 @@ body {
 
 
 
-.top-div, .bottom-div, .left-div, .right-div, .rating, .column {
+.top-div,
+.bottom-div,
+.left-div,
+.right-div,
+.rating,
+.column {
     border: 1px, solid, black;
 }
